@@ -5,7 +5,7 @@
 A tiny circuit breaker for async operations. Wrap any function in `execute()`; the breaker short-circuits when the downstream is failing, then probes for recovery automatically.
 
 ```ts
-import { CircuitBreaker, CircuitBreakerOpenError } from "circuit-breaker";
+import { CircuitBreaker, CircuitBreakerOpenError } from "@p-vbordei/circuit-breaker";
 
 const cb = new CircuitBreaker({
   failureThreshold: 5,      // open after 5 consecutive failures
@@ -28,7 +28,7 @@ try {
 ## Install
 
 ```sh
-npm install circuit-breaker
+npm install @p-vbordei/circuit-breaker
 ```
 
 ## States

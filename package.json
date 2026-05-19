@@ -1,24 +1,52 @@
 {
-  "name": "circuit-breaker",
+  "name": "@p-vbordei/circuit-breaker",
   "version": "0.1.0",
   "description": "Tiny circuit breaker for async operations. Closed / open / half-open state machine with configurable thresholds, error filter, and state-change hooks. Zero dependencies.",
-  "keywords": ["circuit-breaker", "resilience", "fault-tolerance", "async"],
+  "keywords": [
+    "circuit-breaker",
+    "resilience",
+    "fault-tolerance",
+    "async"
+  ],
   "type": "module",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "exports": { ".": { "types": "./dist/index.d.ts", "import": "./dist/index.js" } },
-  "files": ["dist", "README.md", "LICENSE"],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
     "prepublishOnly": "npm run build"
   },
-  "engines": { "node": ">=20" },
-  "author": { "name": "Vlad Bordei", "email": "bordeivlad@gmail.com", "url": "https://github.com/p-vbordei" },
+  "engines": {
+    "node": ">=20"
+  },
+  "author": {
+    "name": "Vlad Bordei",
+    "email": "bordeivlad@gmail.com",
+    "url": "https://github.com/p-vbordei"
+  },
   "license": "Apache-2.0",
-  "repository": { "type": "git", "url": "https://github.com/p-vbordei/circuit-breaker.git" },
-  "bugs": { "url": "https://github.com/p-vbordei/circuit-breaker/issues" },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/p-vbordei/circuit-breaker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/p-vbordei/circuit-breaker/issues"
+  },
   "homepage": "https://github.com/p-vbordei/circuit-breaker#readme",
-  "devDependencies": { "typescript": "^5.5.0", "vitest": "^2.0.0" }
+  "devDependencies": {
+    "typescript": "^5.5.0",
+    "vitest": "^2.0.0"
+  }
 }
