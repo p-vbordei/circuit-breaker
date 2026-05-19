@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/circuit-breaker/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/circuit-breaker/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Fcircuit-breaker.svg)](https://www.npmjs.com/package/@p-vbordei/circuit-breaker)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Fcircuit-breaker.svg)](https://www.npmjs.com/package/@p-vbordei/circuit-breaker)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Fcircuit-breaker)](https://bundlejs.com/?q=%40p-vbordei%2Fcircuit-breaker)
+
 A tiny circuit breaker for async operations. Wrap any function in `execute()`; the breaker short-circuits when the downstream is failing, then probes for recovery automatically.
 
 ```ts
