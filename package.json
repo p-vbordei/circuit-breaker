@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/circuit-breaker",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Tiny circuit breaker for async operations. Closed / open / half-open state machine with configurable thresholds, error filter, and state-change hooks. Zero dependencies.",
   "keywords": [
     "circuit-breaker",
