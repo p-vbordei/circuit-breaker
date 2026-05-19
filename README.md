@@ -1,5 +1,7 @@
 # circuit-breaker
 
+[![ci](https://github.com/p-vbordei/circuit-breaker/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/circuit-breaker/actions/workflows/ci.yml)
+
 A tiny circuit breaker for async operations. Wrap any function in `execute()`; the breaker short-circuits when the downstream is failing, then probes for recovery automatically.
 
 ```ts
